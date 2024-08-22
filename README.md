@@ -1,5 +1,27 @@
 [![Build Status](https://travis-ci.org/IBM/node-red-tensorflowjs.svg?branch=master)](https://travis-ci.org/IBM/node-red-tensorflowjs)
 
+# 1.Install Prerequisites
+    sudo apt install build-essential git curl
+    
+    bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+
+# 2. Run Node RED Locally 
+    node-red-pi --max-old-space-size=256
+
+# 3. Opening the editor
+    http://localhost:1880.
+
+# Also..
+When browsing from another machine you should use the hostname or IP-address of the Pi: 
+
+    http://<hostname>:1880. 
+    
+You can find the IP address by running:
+
+    hostname -I on the Pi.
+
+
+
 # Developing a Machine Learning IoT App with Node-RED and TensorFlow.js
 
 In most cases, enabling your IoT device with AI capabilities involves sending the data from the device to a server. The machine learning calculations would happen on the server. Then the results sent back to the device for appropriate action.
