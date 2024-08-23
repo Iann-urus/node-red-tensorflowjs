@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/IBM/node-red-tensorflowjs.svg?branch=master)](https://travis-ci.org/IBM/node-red-tensorflowjs)
-
 # 1.Install Prerequisites
     sudo apt install build-essential git curl
     
@@ -20,7 +18,12 @@ You can find the IP address by running:
 
     hostname -I on the Pi.
 
-
+# Concolutional Neural Networks
+The defining factor about CNN's is the convolution layers which are hidden and they are good at detecting patterns in images.
+They detect the patterns through filters.
+## What do the Convolutional Layers do?
+It transforms input from the previous layer using a convolutional operation and passes the altered data onto the next layer.
+### How does a convolutional operation look like?
 
 # Developing a Machine Learning IoT App with Node-RED and TensorFlow.js
 
